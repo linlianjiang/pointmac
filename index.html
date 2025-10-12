@@ -325,7 +325,7 @@
      loading="lazy">
   <figcaption style="margin-top:10px; font-size:1rem; color:#444;
                      line-height:1.7; text-align:left;
-                     width:90%; max-width:1100px;
+                     width:115%; max-width:1100px;
                      margin-left:auto; margin-right:auto;">
     Existing point cloud completion models operate with fixed inductive biases
     <strong>at inference</strong>, often focusing on structurally stable regions (e.g., the fuselage).
@@ -373,6 +373,52 @@ Extensive experiments on synthetic, simulated, and real-world datasets demonstra
 <!-- End paper abstract -->
 
 
+<!-- Research Figure Section -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+            <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          
+<figure style="text-align:center;">
+  <img src="static/images/method.png"
+       alt="Learning within Model Trees"
+       style="width:115%; max-width:none; margin-left:-7.5%;
+              border-radius:12px; box-shadow:0 6px 24px rgba(0,0,0,0.1);
+              margin-top:10px; margin-bottom:10px;"
+       loading="lazy">
+<figcaption style="margin-top:10px; font-size:1rem; color:#444;
+                     line-height:1.7; text-align:left;
+                     width:115%; max-width:1100px;
+                     margin-left:auto; margin-right:auto;">
+    <strong>Overview of our test-time adaptation method.</strong>
+    PointMAC formulates point cloud completion as the primary task and introduces 
+    <em>Bi-Aux Units</em> to provide self-supervised signals for test-time adaptation.
+    The encoder <span style="font-family: 'Times New Roman', serif;">𝓔<sup>sh</sup></span> 
+    is shared between primary and auxiliary branches.
+    In the <em>meta-learned test-time training phase</em> (a), sample-specific parameters are updated
+    in the inner adaptation using auxiliary losses, while shared parameters are optimized
+    in the outer alignment via the primary completion loss.
+    In the <em>sample-specific TTA phase</em> (b), adaptation proceeds in three steps:
+    (i) the meta-learned model produces initial completions;
+    (ii) the shared encoder <span style="font-family: 'Times New Roman', serif;">𝓔<sup>sh</sup></span>
+    is updated via self-supervised losses from Bi-Aux Units;
+    (iii) sample-specific completions are generated, adapted to the unique structure
+    and noise of each input.
+  </figcaption>
+</figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+     
+      
+      
 <!-- Image carousel -->
 <section class="hero is-small">
   <div class="hero-body">
@@ -416,59 +462,8 @@ Extensive experiments on synthetic, simulated, and real-world datasets demonstra
 
 
 
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
 
 
 
