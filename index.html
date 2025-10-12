@@ -316,22 +316,29 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-four-fifths">
-          <figure style="text-align:center;">
-            <img src="static/images/teaser.png" alt="Overview of PointMAC framework"
-                 style="max-width:100%; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,0.1);" loading="lazy">
-            <figcaption style="margin-top:10px; font-size:1rem; color:#444; line-height:1.7; text-align:left; max-width:90%; margin-left:auto; margin-right:auto;">
-              Existing point cloud completion models operate with fixed inductive biases
-              <strong>at inference</strong>, often focusing on structurally stable regions (e.g., the fuselage).
-              When such regions are missing,
-              <span style="color:#367DBD;">static inference</span>
-              hinders reasoning over other parts (e.g., the tail), resulting in
-              <em><strong>generic completions</strong></em>.
-              Instead, our model applies
-              <span style="color:#BF0000;">test-time adaptation</span>
-              using self-supervised signals, enabling dynamic attention to visible cues and producing
-              <em><strong>sample-specific completions</strong></em> that better match the ground truth.
-            </figcaption>
-          </figure>
+<figure style="text-align:center;">
+  <img src="static/images/teaser.png"
+       alt="Overview of PointMAC framework"
+       style="width:90%; max-width:1100px; border-radius:12px;
+              box-shadow:0 6px 24px rgba(0,0,0,0.1);
+              margin-top:10px; margin-bottom:10px;"
+       loading="lazy">
+  <figcaption style="margin-top:10px; font-size:1rem; color:#444;
+                     line-height:1.7; text-align:left;
+                     width:90%; max-width:1100px;
+                     margin-left:auto; margin-right:auto;">
+    Existing point cloud completion models operate with fixed inductive biases
+    <strong>at inference</strong>, often focusing on structurally stable regions (e.g., the fuselage).
+    When such regions are missing,
+    <span style="color:#367DBD;">static inference</span>
+    hinders reasoning over other parts (e.g., the tail), resulting in
+    <em><strong>generic completions</strong></em>.
+    Instead, our model applies
+    <span style="color:#BF0000;">test-time adaptation</span>
+    using self-supervised signals, enabling dynamic attention to visible cues and producing
+    <em><strong>sample-specific completions</strong></em> that better match the ground truth.
+  </figcaption>
+</figure>
         </div>
       </div>
     </div>
