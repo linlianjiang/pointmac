@@ -13,6 +13,7 @@
 </div>
 
 ### Preparation
+**Tips**: If you have a configured virtual environment for [SnowflakeNet](https://github.com/AllenXiangX/SnowflakeNet) (or [PoinTr](https://github.com/yuxumin/PoinTr)), you can reuse it instead of installing a new one.
 
 1. Clone pointmac.
 ```bash
