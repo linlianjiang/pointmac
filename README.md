@@ -36,6 +36,19 @@ cd pointmac
 pip install -r requirements.txt
 ```
 
+### Training
+Run the following command to train the point cloud completion model from scratch:
+```bash
+python train.py --configs <config>  # e.g., ./configs/pcn_cd1.yaml
+```
+
+### Evaluation
+To evaluate a pre-trained model, set the model_path in the configuration file before running:
+
+```
+python test.py --configs <config>
+```
+
 
 ### Citing
 If you use our **PointMAC** code in your research, please consider citing:
