@@ -14,6 +14,15 @@ TTA with meta-auxiliary learning provides a general framework: the auxiliary tas
   <img src="./static/images/method.png" width="100%" ></img>
 </div>
 
+### Datasets
+
+We use the [PCN](https://www.shapenet.org/), [ShapeNet-34/21](https://github.com/yuxumin/PoinTr), [MVP](https://mvp-dataset.github.io/), and [KITTI](https://www.cvlibs.net/datasets/kitti/) datasets in our experiments, which are available below:
+
+- [PCN](https://drive.google.com/drive/folders/1P_W1tz5Q4ZLapUifuOE4rFAZp6L1XTJz)
+- [ShapeNet-34/21](https://github.com/yuxumin/PoinTr/blob/master/DATASET.md)
+- [MVP](https://mvp-dataset.github.io/)
+- [KITTI](https://www.cvlibs.net/datasets/kitti/)
+  
 ### Preparation
 **Tips**: If you have a configured virtual environment for [SnowflakeNet](https://github.com/AllenXiangX/SnowflakeNet) (or [PoinTr](https://github.com/yuxumin/PoinTr)), you can reuse it instead of installing a new one.
 
@@ -26,6 +35,7 @@ cd pointmac
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ### Citing
 If you use our **PointMAC** code in your research, please consider citing:
