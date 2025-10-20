@@ -7,7 +7,9 @@
 
 <a href="https://arxiv.org/abs/2510.10365"><img src="https://img.shields.io/badge/arXiv%20paper-2506.04158-b31b1b.svg" alt="arXiv"></a>
 <a href="https://linlianjiang.github.io/pointmac/"><img src="https://img.shields.io/badge/GitHub-Pages-blue.svg?logo=github&" alt="Page"></a>
-  
+
+### Overview
+TTA with meta-auxiliary learning provides a general framework: the auxiliary task is **not** restricted to **enumerating all possible failure modes**. Instead, it can be tailored to different objectives as needed, fundamentally **overcoming the limitations of static, pre-defined strategies**. This enables dynamic, per-sample adaptation to previously unseen patterns, allowing our model to robustly recover fine details where traditional static training or enumerative augmentation would fail.
 <div align="center">
   <img src="./static/images/method.png" width="100%" ></img>
 </div>
