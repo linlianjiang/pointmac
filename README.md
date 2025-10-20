@@ -12,6 +12,18 @@
   <img src="./static/images/method.png" width="100%" ></img>
 </div>
 
+### Preparation
+
+1. Clone pointmac.
+```bash
+git clone --recursive https://github.com/linlianjiang/pointmac.git
+cd pointmac
+```
+2. Create the environment, here we show an example using conda.
+```bash
+pip install -r requirements.txt
+```
+
 ### Citing
 If you use our **PointMAC** code in your research, please consider citing:
 ```BibTeX
