@@ -8,7 +8,7 @@
 <a href="https://arxiv.org/abs/2510.10365"><img src="https://img.shields.io/badge/arXiv%20paper-2506.04158-b31b1b.svg" alt="arXiv"></a>
 <a href="https://linlianjiang.github.io/pointmac/"><img src="https://img.shields.io/badge/GitHub-Pages-blue.svg?logo=github&" alt="Page"></a>
 
-
+### TODO List
 - [x] We have released the model.
 
 ### Overview
