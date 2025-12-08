@@ -34,8 +34,10 @@ We use the [PCN](https://www.shapenet.org/), [ShapeNet-34/21](https://github.com
 git clone --recursive https://github.com/linlianjiang/pointmac.git
 cd pointmac
 ```
-2. Create the environment, here we show an example using conda (Please refer to CRA-PCN))
+2. Create the environment, here we show an example using conda
 ```bash
+conda create -n pointm python=3.8
+conda activate pointm
 pip install -r requirements.txt
 ```
 
