@@ -34,15 +34,15 @@ We use the [PCN](https://www.shapenet.org/), [ShapeNet-34/21](https://github.com
 git clone --recursive https://github.com/linlianjiang/pointmac.git
 cd pointmac
 ```
-2. Create the environment, here we show an example using conda.
+2. Create the environment, here we show an example using conda (Please refer to CRA-PCN))
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Training
-Run the following command to train the point cloud completion model from scratch:
+(1) Pretraining
 ```bash
-python train.py --configs <config>  # e.g., ./configs/pcn_cd1.yaml
+bash run.sh
 ```
 
 ### Evaluation
