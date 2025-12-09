@@ -3,7 +3,7 @@
 
 > **Linlian Jiang**, [Rui Ma](https://ruim-jlu.github.io/), [Li Gu](https://scholar.google.ca/citations?user=crdHC0sAAAAJ&hl=en), [Ziqiang Wang](https://scholar.google.com/citations?hl=zh-CN&user=1CYvfKMAAAAJ&view_op=list_works&sortby=pubdate), [Xinxin Zuo*](https://sites.google.com/site/xinxinzuohome/home), [Yang Wang*](https://users.encs.concordia.ca/~wayang/)
 
-> Concordia Univeristy, Jilin Univerisity
+> Concordia University, Jilin University
 
 <a href="https://arxiv.org/abs/2510.10365"><img src="https://img.shields.io/badge/arXiv%20paper-2506.04158-b31b1b.svg" alt="arXiv"></a>
 <a href="https://linlianjiang.github.io/pointmac/"><img src="https://img.shields.io/badge/GitHub-Pages-blue.svg?logo=github&" alt="Page"></a>
